@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load configuration
-source ../config/backup_config.sh
+source "/home/khoale/rman_backup_project/backup_config.sh"
 
 # Check if the backup file is provided as an argument
 if [ -z "$1" ]; then

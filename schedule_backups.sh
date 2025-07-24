@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load configuration
-source ../config/backup_config.sh
+source "/home/khoale/rman_backup_project/backup_config.sh"
 
 # Ensure the backup scripts are executable
 chmod +x $FULL_BACKUP_SCRIPT

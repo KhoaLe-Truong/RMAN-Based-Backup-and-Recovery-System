@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load configuration
-source ../config/backup_config.sh
+source "/home/khoale/rman_backup_project/backup_config.sh"
 
 # Create a timestamp
 TIMESTAMP=$(date +"%F_%H-%M-%S")
